@@ -119,7 +119,6 @@ function Brain({ size = 20 }) {
   );
 }
 
-
 /* =========================
    APP
 ========================= */
@@ -175,7 +174,6 @@ function App() {
         "--mouse-y": `${mouse.y}px`,
       }}
     >
-
       {/* ================= BACKGROUND ================= */}
 
       <div className="background-system">
@@ -194,31 +192,19 @@ function App() {
         </div>
       </div>
 
-
       {/* ================= LOADING SCREEN ================= */}
 
       <div className={`intro-screen ${introFinished ? "intro-hide" : ""}`}>
-
         <div className="intro-content">
-
           <div className="intro-photo">
-            <img
-              src={profile}
-              alt="Abdul Riyaz"
-            />
+            <img src={profile} alt="Abdul Riyaz" />
           </div>
 
-          <div className="intro-name">
-            Abdul Riyaz
-          </div>
+          <div className="intro-name">Abdul Riyaz</div>
 
-          <div className="intro-role">
-            Full Stack Developer
-          </div>
+          <div className="intro-role">Full Stack Developer</div>
 
-          <div className="loading-text">
-            LOADING PORTFOLIO
-          </div>
+          <div className="loading-text">LOADING PORTFOLIO</div>
 
           <div className="loading-bar">
             <div className="loading-progress"></div>
@@ -229,18 +215,13 @@ function App() {
             <span></span>
             <span></span>
           </div>
-
         </div>
-
       </div>
-
 
       {/* ================= NAVBAR ================= */}
 
       <nav className="navbar">
-
         <div className="nav-container">
-
           <a href="#home" className="logo">
             <span>&lt;</span>
             AR
@@ -259,28 +240,20 @@ function App() {
           <a href="#contact" className="nav-contact">
             Let's Talk
           </a>
-
         </div>
-
       </nav>
-
 
       {/* ================= HERO ================= */}
 
       <section className="hero" id="home">
-
         <div className="hero-container">
-
           <div className="hero-content">
-
             <div className="available-badge">
               <span className="status-dot"></span>
               Open to Opportunities
             </div>
 
-            <p className="hero-small-text">
-              Hello, I'm
-            </p>
+            <p className="hero-small-text">Hello, I'm</p>
 
             <h1>
               Abdul <span>Riyaz</span>
@@ -294,8 +267,8 @@ function App() {
 
             <p className="hero-description">
               Final-year Information Technology student passionate about
-              building modern web applications, solving problems with
-              Java, and exploring AI-powered technologies.
+              building modern web applications, solving problems with Java, and
+              exploring AI-powered technologies.
             </p>
 
             <div className="tech-line">
@@ -307,11 +280,7 @@ function App() {
             </div>
 
             <div className="hero-buttons">
-
-              <a
-                href="#projects"
-                className="primary-btn magnetic-btn"
-              >
+              <a href="#projects" className="primary-btn magnetic-btn">
                 View Projects
                 <ArrowRight size={18} />
               </a>
@@ -319,29 +288,27 @@ function App() {
               <a
                 href="/Riyaz_resume.pdf"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
                 className="secondary-btn magnetic-btn"
               >
                 Resume
                 <Download size={18} />
               </a>
-
             </div>
 
             <div className="social-links">
-
               <a
                 href="https://github.com/Riyaz-ProDev"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <Github size={21} />
               </a>
 
               <a
-                href="www.linkedin.com/in/abdul-riyaz786"
+                href="https://www.linkedin.com/in/abdul-riyaz786"
                 target="_blank"
-                rel="noreferrer"
+                rel="noopener noreferrer"
               >
                 <Linkedin size={21} />
               </a>
@@ -349,16 +316,12 @@ function App() {
               <a href="mailto:riyaz97120@gmail.com">
                 <Mail size={21} />
               </a>
-
             </div>
-
           </div>
-
 
           {/* HERO VISUAL */}
 
           <div className="hero-visual">
-
             <div className="visual-glow"></div>
 
             <div className="visual-label label-top">
@@ -367,74 +330,51 @@ function App() {
             </div>
 
             <div className="portrait-container">
-
               <div className="portrait-border"></div>
 
               <div className="profile-card">
-
                 <div className="profile-shine"></div>
 
-                <img
-                  src={profile}
-                  alt="Abdul Riyaz"
-                />
-
+                <img src={profile} alt="Abdul Riyaz" />
               </div>
 
-              <div className="code-orbit orbit-a">
-                &lt;/&gt;
-              </div>
+              <div className="code-orbit orbit-a">&lt;/&gt;</div>
 
-              <div className="code-orbit orbit-b">
-                Java
-              </div>
+              <div className="code-orbit orbit-b">Java</div>
 
-              <div className="code-orbit orbit-c">
-                AI
-              </div>
-
+              <div className="code-orbit orbit-c">AI</div>
             </div>
 
             <div className="floating-card card-one">
-
               <Code2 size={20} />
 
               <div>
                 <strong>Developer</strong>
                 <small>Java + MERN</small>
               </div>
-
             </div>
 
             <div className="floating-card card-two">
-
               <Sparkles size={20} />
 
               <div>
                 <strong>Always Learning</strong>
                 <small>DSA + AI</small>
               </div>
-
             </div>
-
           </div>
-
         </div>
 
         <div className="scroll-indicator">
           <span></span>
           Scroll to explore
         </div>
-
       </section>
-
 
       {/* ================= ABOUT ================= */}
 
       <section className="section" id="about">
-
         <div className="section-container">
-
           <div className="section-heading">
             <p>01 — ABOUT ME</p>
 
@@ -444,32 +384,28 @@ function App() {
           </div>
 
           <div className="about-grid">
-
             <div className="about-text">
-
               <p>
-                I'm Abdul Riyaz, a final-year Information Technology
-                student interested in software development, full-stack
-                applications and problem solving.
+                I'm Abdul Riyaz, a final-year Information Technology student
+                interested in software development, full-stack applications and
+                problem solving.
               </p>
 
               <p>
-                I work with Java, React.js, Node.js, Express.js,
-                MongoDB and MySQL while continuously improving my
-                Data Structures and Algorithms skills.
+                I work with Java, React.js, Node.js, Express.js, MongoDB and
+                MySQL while continuously improving my Data Structures and
+                Algorithms skills.
               </p>
 
               <p>
-                I enjoy turning ideas into working applications and
-                learning new technologies by building real projects.
+                I enjoy turning ideas into working applications and learning
+                new technologies by building real projects.
               </p>
-
             </div>
 
             <div className="about-stats">
-
               <div className="stat-card stat-purple">
-                <strong>8.1</strong>
+                <strong>8.5</strong>
                 <span>CGPA</span>
               </div>
 
@@ -487,34 +423,24 @@ function App() {
                 <strong>MERN</strong>
                 <span>Full Stack</span>
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* ================= SKILLS ================= */}
 
       <section className="section" id="skills">
-
         <div className="section-container">
-
           <div className="section-heading">
-
             <p>02 — SKILLS</p>
 
             <h2>
               My <span>technical toolkit.</span>
             </h2>
-
           </div>
 
           <div className="skills-grid">
-
             <div className="skill-card">
               <div className="skill-icon purple">
                 <Code2 />
@@ -531,9 +457,7 @@ function App() {
             </div>
 
             <div className="skill-card">
-              <div className="skill-icon cyan">
-                &lt;/&gt;
-              </div>
+              <div className="skill-icon cyan">&lt;/&gt;</div>
 
               <h3>Frontend</h3>
 
@@ -547,9 +471,7 @@ function App() {
             </div>
 
             <div className="skill-card">
-              <div className="skill-icon blue">
-                ⚡
-              </div>
+              <div className="skill-icon blue">⚡</div>
 
               <h3>Backend</h3>
 
@@ -563,9 +485,7 @@ function App() {
             </div>
 
             <div className="skill-card">
-              <div className="skill-icon pink">
-                ◈
-              </div>
+              <div className="skill-icon pink">◈</div>
 
               <h3>Database & Tools</h3>
 
@@ -578,22 +498,15 @@ function App() {
                 <span>VS Code</span>
               </div>
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* ================= PROJECTS ================= */}
 
       <section className="section projects-section" id="projects">
-
         <div className="section-container">
-
           <div className="section-heading">
-
             <p>03 — PROJECTS</p>
 
             <h2>
@@ -604,76 +517,78 @@ function App() {
               A collection of projects where I applied development,
               problem-solving and AI/ML concepts.
             </p>
-
           </div>
 
           <div className="projects-grid">
-
             {/* INTERVIEWIQ */}
 
-            <div className="project-card project-purple">
+<div className="project-card project-purple">
 
-              <div className="project-top">
-                <span className="project-number">01</span>
+  <div className="project-top">
+    <span className="project-number">01</span>
 
-                <span className="project-type">
-                  FULL STACK
-                </span>
-              </div>
+    <div style={{ display: "flex", gap: "8px", alignItems: "center" }}>
+      <span className="project-type">
+        FULL STACK
+      </span>
 
-              <div className="project-icon">
-                <Brain size={28} />
-              </div>
+      <span className="project-type">
+        ⭐ FEATURED PROJECT
+      </span>
+    </div>
+  </div>
 
-              <h3>InterviewIQ</h3>
+  <div className="project-icon">
+    <Brain size={28} />
+  </div>
 
-              <p>
-                An interactive interview preparation platform designed
-                to help users practice technical questions and improve
-                interview readiness.
-              </p>
+  <h3>InterviewIQ</h3>
 
-              <div className="project-tech">
-                <span>React</span>
-                <span>Node.js</span>
-                <span>Express</span>
-                <span>MongoDB</span>
-              </div>
+  <p>
+    AI-powered interview preparation platform featuring resume analysis,
+    personalized mock interviews, automated interview scoring, PDF-based
+    performance reports, Google authentication and a Razorpay-based
+    credit system.
+  </p>
 
-              <div className="project-links">
+  <div className="project-tech">
+    <span>React</span>
+    <span>Node.js</span>
+    <span>Express</span>
+    <span>MongoDB</span>
+  </div>
 
-                <a
-                  href="https://github.com/Riyaz-ProDev/InterviewIQ"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Github size={16} />
-                  GitHub
-                </a>
+  <div className="project-links">
 
-                <a
-                  href="https://interviewiq-xk7a.onrender.com/"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  <ExternalLink size={16} />
-                  Live Demo
-                </a>
+    <a
+      href="https://github.com/Riyaz-ProDev/InterviewIQ"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <Github size={16} />
+      GitHub
+    </a>
 
-              </div>
+    <a
+      href="https://interviewiq-xk7a.onrender.com/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <ExternalLink size={16} />
+      Live Demo
+    </a>
 
-            </div>
+  </div>
 
+</div>
 
             {/* FACILITYOPS */}
 
             <div className="project-card project-cyan">
-
               <div className="project-top">
                 <span className="project-number">02</span>
 
-                <span className="project-type">
-                  AI / FULL STACK
-                </span>
+                <span className="project-type">AI / FULL STACK</span>
               </div>
 
               <div className="project-icon">
@@ -683,9 +598,9 @@ function App() {
               <h3>Agentic FacilityOps</h3>
 
               <p>
-                Energy intelligence platform that monitors facility
-                energy usage, environmental data and generates
-                AI-powered recommendations.
+                Energy intelligence platform that monitors facility energy
+                usage, environmental data and generates AI-powered
+                recommendations.
               </p>
 
               <div className="project-tech">
@@ -696,51 +611,42 @@ function App() {
               </div>
 
               <div className="project-links">
-
                 <a
-                  href="https://github.com/YOUR_USERNAME/agentic-facilityops"
+                  href="https://github.com/Riyaz-ProDev/agentic-ai-facility-operations-optimization"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <Github size={16} />
                   GitHub
                 </a>
 
                 <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://agentic-ai-facility-operations-eqrm.onrender.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <ExternalLink size={16} />
                   Live Demo
                 </a>
-
               </div>
-
             </div>
-
 
             {/* STORE RATING */}
 
             <div className="project-card project-blue">
-
               <div className="project-top">
                 <span className="project-number">03</span>
 
-                <span className="project-type">
-                  FULL STACK
-                </span>
+                <span className="project-type">FULL STACK</span>
               </div>
 
-              <div className="project-icon">
-                ★
-              </div>
+              <div className="project-icon">★</div>
 
               <h3>Store Rating System</h3>
 
               <p>
-                Role-based store rating application with Admin,
-                Normal User and Store Owner functionality using
-                secure authentication.
+                Role-based store rating application with Admin, Normal User and
+                Store Owner functionality using secure authentication.
               </p>
 
               <div className="project-tech">
@@ -751,51 +657,43 @@ function App() {
               </div>
 
               <div className="project-links">
-
                 <a
-                  href="https://github.com/YOUR_USERNAME/store-rating-system"
+                  href="https://github.com/Riyaz-ProDev/store-rating-system"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <Github size={16} />
                   GitHub
                 </a>
 
                 <a
-                  href="#"
+                  href="#projects"
                   onClick={(e) => e.preventDefault()}
+                  title="Live demo not available"
                 >
                   <ExternalLink size={16} />
                   Live Demo
                 </a>
-
               </div>
-
             </div>
-
 
             {/* FRAUD DETECTION */}
 
             <div className="project-card project-pink">
-
               <div className="project-top">
                 <span className="project-number">04</span>
 
-                <span className="project-type">
-                  MACHINE LEARNING
-                </span>
+                <span className="project-type">MACHINE LEARNING</span>
               </div>
 
-              <div className="project-icon">
-                ◉
-              </div>
+              <div className="project-icon">◉</div>
 
               <h3>Online Payment Fraud Detection</h3>
 
               <p>
-                Machine learning system for identifying potentially
-                fraudulent online payment transactions using
-                classification techniques and data balancing.
+                Machine learning system for identifying potentially fraudulent
+                online payment transactions using classification techniques and
+                data balancing.
               </p>
 
               <div className="project-tech">
@@ -806,68 +704,51 @@ function App() {
               </div>
 
               <div className="project-links">
-
                 <a
-                  href="https://github.com/YOUR_USERNAME/payment-fraud-detection"
+                  href="https://github.com/Riyaz-ProDev/online-payment-fraud-detection-ml"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                 >
                   <Github size={16} />
                   GitHub
                 </a>
 
                 <a
-                  href="#"
+                  href="#projects"
                   onClick={(e) => e.preventDefault()}
+                  title="Live demo not available"
                 >
                   <ExternalLink size={16} />
                   Live Demo
                 </a>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* ================= JOURNEY ================= */}
 
       <section className="section" id="experience">
-
         <div className="section-container">
-
           <div className="section-heading">
-
             <p>04 — JOURNEY</p>
 
             <h2>
               Learning through <span>experience.</span>
             </h2>
-
           </div>
 
           <div className="journey">
-
             <div className="journey-item">
-
               <div className="journey-icon college">
                 <GraduationCap />
               </div>
 
               <div className="journey-content">
+                <span className="journey-date">2023 — 2027</span>
 
-                <span className="journey-date">
-                  2023 — 2027
-                </span>
-
-                <h3>
-                  Sri Indu College of Engineering & Technology
-                </h3>
+                <h3>Sri Indu College of Engineering & Technology</h3>
 
                 <p className="journey-role">
                   B.Tech — Information Technology
@@ -875,99 +756,65 @@ function App() {
 
                 <p>
                   Building a strong foundation in software development,
-                  databases, computer science fundamentals and
-                  problem solving.
+                  databases, computer science fundamentals and problem solving.
                 </p>
-
               </div>
-
             </div>
 
-
             <div className="journey-item">
-
               <div className="journey-icon infosys">
                 <Sparkles />
               </div>
 
               <div className="journey-content">
+                <span className="journey-date">2026</span>
 
-                <span className="journey-date">
-                  2026
-                </span>
+                <h3>Infosys Springboard</h3>
 
-                <h3>
-                  Infosys Springboard
-                </h3>
-
-                <p className="journey-role">
-                  Training & Project
-                </p>
+                <p className="journey-role">Training & Project</p>
 
                 <p>
-                  Working on an Agentic AI / FacilityOps project
-                  involving energy intelligence, analytics and
-                  AI-powered recommendations.
+                  Working on an Agentic AI / FacilityOps project involving
+                  energy intelligence, analytics and AI-powered recommendations.
                 </p>
-
               </div>
-
             </div>
 
-
             <div className="journey-item">
-
               <div className="journey-icon dsa">
                 <Brain />
               </div>
 
               <div className="journey-content">
+                <span className="journey-date">Ongoing</span>
 
-                <span className="journey-date">
-                  Ongoing
-                </span>
+                <h3>Apna College — Alpha Batch</h3>
 
-                <h3>
-                  Apna College — Alpha Batch
-                </h3>
-
-                <p className="journey-role">
-                  Data Structures & Algorithms
-                </p>
+                <p className="journey-role">Data Structures & Algorithms</p>
 
                 <p>
-                  Strengthening Java and DSA fundamentals through
-                  structured problem solving and coding practice.
+                  Strengthening Java and DSA fundamentals through structured
+                  problem solving and coding practice.
                 </p>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* ================= CONTACT ================= */}
 
       <section className="section contact-section" id="contact">
-
         <div className="contact-container">
-
-          <p className="contact-small">
-            05 — CONTACT
-          </p>
+          <p className="contact-small">05 — CONTACT</p>
 
           <h2>
             Let's build something <span>great.</span>
           </h2>
 
           <p>
-            Open to internships, entry-level software development
-            opportunities and exciting projects.
+            Open to internships, entry-level software development opportunities
+            and exciting projects.
           </p>
 
           <a
@@ -979,19 +826,18 @@ function App() {
           </a>
 
           <div className="contact-socials">
-
             <a
-              href="https://github.com/YOUR_USERNAME"
+              href="https://github.com/Riyaz-ProDev"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <Github />
             </a>
 
             <a
-              href="https://linkedin.com/in/YOUR_USERNAME"
+              href="https://www.linkedin.com/in/abdul-riyaz786"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               <Linkedin />
             </a>
@@ -999,24 +845,17 @@ function App() {
             <a href="mailto:riyaz97120@gmail.com">
               <Mail />
             </a>
-
           </div>
-
         </div>
-
       </section>
-
 
       {/* ================= FOOTER ================= */}
 
       <footer>
         <p>© 2026 Abdul Riyaz</p>
 
-        <span>
-          Designed & Built with React
-        </span>
+        <span>Designed & Built with React</span>
       </footer>
-
     </div>
   );
 }
